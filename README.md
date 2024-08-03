@@ -140,34 +140,20 @@ $ \text{VAT} = 5\% * COGS\\= 5\%  320.53 = 16.0265 $
 
 $ total = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
 
-$ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\\=\frac{16.0265}{336.5565} = 0.047619\\\approx 4.7619\% $
+$ Here's a refined version:
 
-## Code
+\[
+\text{Gross Margin Percentage} = \frac{\text{Gross Income}}{\text{Total Revenue}} \times 100
+\]
 
-For the rest of the code, check the [SQL_queries.sql](https://github.com/Princekrampah/WalmartSalesAnalysis/blob/master/SQL_queries.sql) file
+\[
+= \frac{16.0265}{336.5565} \times 100 
+\]
 
-```sql
--- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
+\[
+= 0.047619 \times 100 
+\]
 
--- Create table
-CREATE TABLE IF NOT EXISTS sales(
-	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
-    branch VARCHAR(5) NOT NULL,
-    city VARCHAR(30) NOT NULL,
-    customer_type VARCHAR(30) NOT NULL,
-    gender VARCHAR(30) NOT NULL,
-    product_line VARCHAR(100) NOT NULL,
-    unit_price DECIMAL(10,2) NOT NULL,
-    quantity INT NOT NULL,
-    tax_pct FLOAT(6,4) NOT NULL,
-    total DECIMAL(12, 4) NOT NULL,
-    date DATETIME NOT NULL,
-    time TIME NOT NULL,
-    payment VARCHAR(15) NOT NULL,
-    cogs DECIMAL(10,2) NOT NULL,
-    gross_margin_pct FLOAT(11,9),
-    gross_income DECIMAL(12, 4),
-    rating FLOAT(2, 1)
-);
-```
+\[
+\approx 4.76\%
+\] $
