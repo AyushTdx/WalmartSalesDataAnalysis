@@ -127,33 +127,3 @@ $ grossProfit(grossIncome) = total(gross_sales) - COGS $
 
 $ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
 
-<u>**Example with the first row in our DB:**</u>
-
-**Data given:**
-
-- $ \text{Unite Price} = 45.79 $
-- $ \text{Quantity} = 7 $
-
-$ COGS = 45.79 * 7 = 320.53 $
-
-$ \text{VAT} = 5\% * COGS\\= 5\%  320.53 = 16.0265 $
-
-$ total = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
-
-$ Here's a refined version:
-
-\[
-\text{Gross Margin Percentage} = \frac{\text{Gross Income}}{\text{Total Revenue}} \times 100
-\]
-
-\[
-= \frac{16.0265}{336.5565} \times 100 
-\]
-
-\[
-= 0.047619 \times 100 
-\]
-
-\[
-\approx 4.76\%
-\] $
